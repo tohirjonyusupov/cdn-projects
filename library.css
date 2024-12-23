@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #3A3C3C;
+  width: 100%;
+  padding: 40px 40px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.libraryName {
+  font-size: 40px;
+}
+
+.info-box p:nth-child(2) span {
+  color: #fff;
+}
+.info-box p:nth-child(2) {
+  color: #D9643A;;
+}
+
+#tags {
+  color: #a6a6a6;
+  font-size: 15px;
+}
+
+
+.links-box {
+  background-color: #454647;
+  padding: 70px 50px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+form label {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+form select {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.links .link {
+  background-color: #A6A6A6;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  color: #000;
+  text-decoration: none;
+  font-family: sans-serif;
+}
